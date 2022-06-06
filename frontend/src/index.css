@@ -1,0 +1,165 @@
+@import url("https://fonts.googleapis.com/css2?family=Mukta+Vaani:wght@700&family=Noto+Serif+TC:wght@700&family=Roboto&display=swap");
+
+/* h1 = Noto Serif TC hero
+    h2 = mukta vaani header
+    basic = Roboto
+*/
+
+body {
+  box-sizing: border-box;
+  background-color: rgb(242, 242, 242);
+  color: white;
+  text-decoration: none;
+}
+
+main {
+  min-height: 80vh;
+}
+a {
+  text-decoration: none;
+}
+
+h3 {
+  padding: 1rem 0;
+}
+
+h1 {
+  font-family: "Noto Serif TC", sans-serif;
+
+  font-size: 1.8rem;
+  padding: 1rem 0;
+}
+h2 {
+  font-family: "Mukta Vaani", sans-serif;
+  font-size: 1.4rem;
+  padding: 0.5rem 0;
+}
+p {
+  font-family: "Roboto", sans-serif;
+}
+.rating span {
+  margin: 0.1rem;
+}
+
+/* header and footer media queries for 400 800 */
+@media only screen and (max-width: 600px) {
+  .left-header {
+    display: flex;
+  }
+  .left-header .left-header-link {
+    padding: 0.1rem 1rem;
+    margin-bottom: 1rem;
+    border-radius: 25px;
+  }
+  /* .left-header-link:nth-child(3) {
+    display: none;
+  } */
+  .cart-icon {
+    display: block;
+    padding-left: auto;
+    padding-right: auto;
+  }
+  .header-center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+footer {
+  background-color: rgb(242, 242, 242);
+  padding: 1rem 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media only screen and (max-width: 600px) {
+  .footer-logo {
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 1rem;
+    font-size: 2rem;
+  }
+
+  .footer-social {
+    margin-right: auto;
+  }
+  .footer-contact {
+    margin-bottom: 1rem;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .footer-copyright {
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+
+/* end header and footer */
+/* main */
+@media only screen and (max-width: 600px) {
+  .product-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .product-container .product-section {
+    width: 100%;
+  }
+}
+/* info section */
+@media only screen and (max-width: 600px) {
+  .info-container .info-section {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .info-section .info-img {
+    width: 100%;
+  }
+  .info-section .info-img:nth-child(3) {
+    display: none;
+  }
+  .info-container .info-text {
+    width: 100%;
+  }
+  .info-text .info-text-body {
+    width: 100%;
+  }
+}
+
+/* About Page */
+
+@media only screen and (max-width: 600px) {
+  .about-us-text {
+    padding: 1rem;
+    background-color: white;
+  }
+  .about-us-header {
+    display: flex;
+    flex-direction: column;
+  }
+  .about-us-header .wheel-images {
+    margin-top: 5rem;
+
+    width: 100%;
+  }
+  .about-us-header .about-us-text {
+    width: 100%;
+  }
+  .leadership-card {
+    display: flex;
+  }
+  .leadership-card .leadership-image img {
+    height: 20rem;
+  }
+  .quality-card {
+    display: flex;
+    flex-direction: column;
+  }
+  .quality-card-image img {
+    width: 16rem;
+  }
+}

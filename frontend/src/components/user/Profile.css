@@ -1,0 +1,189 @@
+/* +++++ Button Neon start +++++ */
+.neon-button {
+  font-size: 3rem;
+  display: inline-block;
+  cursor: pointer;
+  text-decoration: none;
+  color: hsl(317 100% 54%);
+  border: hsl(317 100% 54%) 0.125em solid;
+  padding: 0.25em 1em;
+  border-radius: 0.25em;
+  text-shadow: 0 0 0.125em hsl(0 0% 100% / 0.3), 0 0 0.45em currentColor;
+  box-shadow: inset 0 0 0.5em 0 hsl(317 100% 54%) 0 0 0.5em 0 hsl(317 100% 54%);
+  position: relative;
+  transition: background-color 100ms linear;
+  margin: 2rem;
+}
+.neon-button::before {
+  pointer-events: none;
+  content: "";
+  position: absolute;
+  background: hsl(317 100% 54%);
+  top: 120%;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transform: perspective(3em) rotateX(40deg) scale(1, 0.35);
+  filter: blur(1.5em);
+  opacity: 0.7;
+}
+
+.neon-button::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  box-shadow: 0 0 2em 0.5em hsl(317 100% 54%);
+  opacity: 0;
+  background-color: hsl(317 100% 54%);
+  z-index: -1;
+  transition: opacity 100ms linear;
+}
+.neon-button:hover,
+.neon-button:focus {
+  background: hsl(317 100% 54%);
+  color: black;
+  text-shadow: none;
+}
+.neon-button:hover::before,
+.neon-button:focus::before {
+  opacity: 1;
+}
+.neon-button:hover::after,
+.neon-button:focus::after {
+  opacity: 1;
+}
+/* +++++ Button Neon end +++++ */
+
+.profileContainer {
+  display: flex;
+
+  width: 100vw;
+
+  background-color: rgb(178, 197, 202);
+}
+h1 {
+  color: rgba(0, 0, 0, 0.555);
+  font: 500 2.2vmax "Roboto";
+}
+
+.profileContainer > div {
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+  max-width: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.profileContainer > div:first-child > h1 {
+  color: rgba(0, 0, 0, 0.555);
+  font: 500 2.2vmax "Roboto";
+  transform: translateX(-10vmax) translateY(-2vmax);
+}
+
+.profileContainer > div:first-child > img {
+  width: 20vmax;
+  border-radius: 100%;
+  transition: all 0.5s;
+}
+
+.profileContainer > div:first-child > img:hover {
+  transform: scale(1.05);
+}
+
+.profileContainer > div:first-child > a {
+  border: none;
+  background-color: tomato;
+  font: 400 1vmax "Roboto";
+  color: rgb(28, 13, 13);
+  text-decoration: none;
+  padding: 0.5vmax;
+  width: 30%;
+  margin: 4vmax;
+  text-align: center;
+  transition: all 0.5s;
+}
+
+.profileContainer > div:first-child > a:hover {
+  background-color: rgb(204, 78, 56);
+}
+
+.profileContainer > div:last-child {
+  justify-content: space-evenly;
+  align-items: flex-start;
+  padding: 5vmax;
+  box-sizing: border-box;
+}
+
+.profileContainer > div:last-child > div > h4 {
+  color: black;
+  font: 400 1.2vmax "Roboto";
+}
+
+.profileContainer > div:last-child > div > p {
+  color: rgba(0, 0, 0, 0.418);
+  font: 400 1vmax cursive;
+  margin: 0.2vmax;
+}
+
+.profileContainer > div:last-child > div:last-child {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+}
+
+.profileContainer > div:last-child > div:last-child > a {
+  border: none;
+  background-color: rgb(68, 68, 68);
+  font: 400 1vmax "Roboto";
+  color: rgb(147, 41, 41);
+  text-decoration: none;
+  padding: 0.5vmax;
+  text-align: center;
+  transition: all 0.5s;
+  margin: 1vmax 0;
+}
+
+.profileContainer > div:last-child > div:last-child > a:hover {
+  background-color: rgb(31, 31, 31);
+}
+
+@media screen and (max-width: 600px) {
+  .profileContainer {
+    flex-direction: column;
+  }
+
+  .profileContainer > div:first-child > h1 {
+    font: 500 3.2vmax "Roboto";
+    transform: translateY(-2vmax);
+  }
+
+  .profileContainer > div:first-child > a {
+    font: 400 1.7vmax "Roboto";
+    padding: 1vmax;
+  }
+
+  .profileContainer > div:last-child {
+    text-align: center;
+    align-items: center;
+  }
+
+  .profileContainer > div:last-child > div > h4 {
+    font: 400 2.5vmax "Roboto";
+  }
+
+  .profileContainer > div:last-child > div > p {
+    font: 400 2vmax cursive;
+    margin: 0.5vmax 0;
+  }
+
+  .profileContainer > div:last-child > div:last-child > a {
+    font: 400 1.8vmax "Roboto";
+    padding: 1vmax;
+    margin: 2vmax 0;
+  }
+}

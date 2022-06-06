@@ -1,0 +1,40 @@
+.Title-Container {
+  margin-top: 96px;
+}
+
+.About-Container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.Description-Container,
+.Image-Container {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  display: flex;
+  margin: 1rem;
+  width: 70vw;
+  height: auto;
+}
+
+.Description-Container {
+  padding: 2rem;
+  justify-content: space-between;
+}
+
+.Description-About {
+  font-size: 18px;
+  padding: 1rem;
+}
+
+.Image-Container {
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.About-Image {
+  width: 100%;
+  object-fit: contain;
+}

@@ -1,0 +1,40 @@
+{
+  "name": "divingshop",
+  "version": "1.0.0",
+  "description": "Introduction This project is a template for building fullstack divingShop MERN applications running on node.js.",
+  "main": "server.js",
+  "scripts": {
+    "start": "SET node backend/server.js",
+    "dev": "SET NODE_ENV=DEVELOPMENT& nodemon backend/server",
+    "prod": "SET NODE_ENV=PRODUCTION& nodemon backend/server",
+    "seeder": "node utils/seeder.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Adrion10/divingShop.git"
+  },
+  "keywords": [],
+  "author": "Lace, Eddison, Deniss, Ahmet",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Adrion10/divingShop/issues"
+  },
+  "homepage": "https://github.com/Adrion10/divingShop#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.0",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
+    "express": "^4.18.1",
+    "express-fileupload": "^1.4.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.3.1",
+    "nodemailer": "^6.7.4",
+    "stripe": "^9.5.0",
+    "validator": "^13.7.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  }
+}

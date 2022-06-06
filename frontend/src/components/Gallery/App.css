@@ -1,0 +1,49 @@
+.tags {
+  text-align: center;
+  padding: 20px 0px;
+  background-color: rgb(43, 92, 226);
+}
+
+.tag {
+  outline: none;
+  border: none;
+  color: #eee;
+  margin: 0px 10px;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.active {
+  font-weight: bold;
+  border-bottom: 1px solid #eee;
+}
+.container {
+  width: 100%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(3, 2fr);
+  gap: 10px;
+}
+
+.image-card {
+  width: 400px;
+  height: 400px;
+
+  padding: 5px;
+  margin: 5px;
+  border: 2px solid rgb(124, 83, 83);
+  border-radius: 2px;
+}
+
+.image {
+  width: 100%;
+  height: 100%;
+}
+.image:hover {
+  transform: scale(1.3);
+  transition: transform 0.5s;
+  display: flex;
+  align-items: center;
+
+  justify-content: center;
+}

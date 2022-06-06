@@ -1,0 +1,809 @@
+[
+  {
+    "name": "Diving Jacket Scubapro",
+    "price": 499.99,
+    "description": "A great way to dive into the ocean",
+    "rating": 4.5,
+    "images": [
+      {
+        "public_id": "Images/divingBCD/scubapro_diving_BCD_lnsqws.jpg",
+        "url": " https://res.cloudinary.com/diving-shop/image/upload/v1653734556/Images/divingBCD/scubapro_diving_BCD_lnsqws.jpg"
+      },
+      {
+        "public_id": "Images/divingBCD/sherwood_diving_BCD_j1wenm.jpg",
+        "url": "https://res.cloudinary.com/diving-shop/image/upload/v1653734557/Images/divingBCD/sherwood_diving_BCD_j1wenm.jpg"
+      },
+      {
+        "public_id": "Images/divingBCD/gressi_diving_BCD_if7ona.jpg",
+        "url": "https://res.cloudinary.com/diving-shop/image/upload/v1653734556/Images/divingBCD/gressi_diving_BCD_if7ona.jpg"
+      },
+      {
+        "public_id": "Images/divingBCD/mares_diving_BCD_f0mwy3.jpg",
+        "url": " https://res.cloudinary.com/diving-shop/image/upload/v1653734557/Images/divingBCD/mares_diving_BCD_f0mwy3.jpg"
+      }
+    ],
+    "category": "Diving_BCD",
+    "seller": "Ebay",
+    "stock": 4,
+    "numReviews": 52,
+    "reviews": []
+  },
+
+  {
+    "name": "Diving suits Gressi",
+    "price": 249.99,
+    "description": "A great way to dive into the ocean",
+    "rating": 4.0,
+    "images": [
+      {
+        "public_id": "Images/suits/gressi_diving_suit_iobv7x.jpg",
+        "url": "https://res.cloudinary.com/diving-shop/image/upload/v1653734603/Images/suits/gressi_diving_suit_iobv7x.jpg"
+      },
+      {
+        "public_id": "Images/suits/lycra_diving_suit_yckoqp.jpg",
+        "url": " https://res.cloudinary.com/diving-shop/image/upload/v1653734603/Images/suits/lycra_diving_suit_yckoqp.jpg"
+      },
+      {
+        "public_id": "Images/suits/mares_diving_suit_sokbd4.jpg",
+        "url": " https://res.cloudinary.com/diving-shop/image/upload/v1653734603/Images/suits/mares_diving_suit_sokbd4.jpg"
+      },
+      {
+        "public_id": "Images/suits/scubapro_diving_suit_g2alzd.jpg",
+        "url": " https://res.cloudinary.com/diving-shop/image/upload/v1653734603/Images/suits/scubapro_diving_suit_g2alzd.jpg"
+      }
+    ],
+    "category": "Suits",
+    "seller": "Ebay",
+    "stock": 10,
+    "numReviews": 62,
+    "reviews": []
+  },
+  {
+    "name": "Scuba Regulators Mares",
+    "price": 649.99,
+    "description": "A great way to dive into the ocean",
+    "rating": 4.5,
+    "images": [
+      {
+        "public_id": "/images/regulators/mares_diving_regulators.jpg",
+        "url": " https://res.cloudinary.com/diving-shop/image/upload/v1653734600/Images/regulators/sherwood_diving_regulators_rww4ym.jpg"
+      },
+      {
+        "public_id": "Images/regulators/mares_diving_regulators_mscx7i.jpg",
+        "url": "https://res.cloudinary.com/diving-shop/image/upload/v1653734600/Images/regulators/mares_diving_regulators_mscx7i.jpg"
+      },
+      {
+        "public_id": "Images/regulators/tusa_diving_regulators_cwleph.jpg",
+        "url": " https://res.cloudinary.com/diving-shop/image/upload/v1653734600/Images/regulators/tusa_diving_regulators_cwleph.jpg"
+      },
+      {
+        "public_id": "Images/regulators/scubapro_diving_regulators_mjnvwb.jpg",
+        "url": "https://res.cloudinary.com/diving-shop/image/upload/v1653734600/Images/regulators/scubapro_diving_regulators_mjnvwb.jpg"
+      }
+    ],
+    "category": "Regulators",
+    "seller": "Ebay",
+    "stock": 10,
+    "numReviews": 62,
+    "reviews": []
+  },
+  {
+    "name": "Diving Tank",
+    "price": 299.99,
+    "description": "A great way to dive into the ocean",
+    "rating": 4.5,
+    "images": [
+      {
+        "public_id": "Images/diving_tank_pndkly.jpg ",
+        "url": "https://res.cloudinary.com/diving-shop/image/upload/v1653734196/Images/diving_tank_pndkly.jpg"
+      }
+    ],
+    "category": "Diving Tank",
+    "seller": "Ebay",
+    "stock": 10,
+    "numReviews": 6,
+    "reviews": []
+  },
+
+  {
+    "name": "Diving Mask Fullface",
+    "price": 49.99,
+    "description": "A great way to dive into the ocean",
+    "rating": 4.5,
+    "images": [
+      {
+        "public_id": "  Images/divingMask/fullface_diving_mask_zi4tf3.jpg",
+        "url": "  https://res.cloudinary.com/diving-shop/image/upload/v1653734582/Images/divingMask/fullface_diving_mask_zi4tf3.jpg"
+      },
+      {
+        "public_id": " Images/divingMask/gressi_diving_mask_fy5j76.jpg",
+        "url": "https://res.cloudinary.com/diving-shop/image/upload/v1653734582/Images/divingMask/gressi_diving_mask_fy5j76.jpg"
+      },
+      {
+        "public_id": " Images/divingMask/mares_diving_mask_qi7p53.jpg",
+        "url": "https://res.cloudinary.com/diving-shop/image/upload/v1653734582/Images/divingMask/mares_diving_mask_qi7p53.jpg"
+      },
+      {
+        "public_id": " Images/divingMask/scubapro_diving_mask_vi2cl9.jpg",
+        "url": "  https://res.cloudinary.com/diving-shop/image/upload/v1653734582/Images/divingMask/scubapro_diving_mask_vi2cl9.jpg"
+      }
+    ],
+    "category": "Masks",
+    "seller": "Ebay",
+    "stock": 10,
+    "numReviews": 12,
+    "reviews": []
+  },
+  {
+    "name": "Fins Aqualunga",
+    "price": 69.99,
+    "description": "A great way to dive into the ocean",
+    "rating": 4.5,
+    "images": [
+      {
+        "public_id": " Images/fins/aqualung_diving_fins_orqqza.jpg",
+        "url": " https://res.cloudinary.com/diving-shop/image/upload/v1653734597/Images/fins/aqualung_diving_fins_orqqza.jpg"
+      },
+      {
+        "public_id": "Images/fins/gressi_diving_fins_on1xjj.jpg",
+        "url": "  https://res.cloudinary.com/diving-shop/image/upload/v1653734597/Images/fins/gressi_diving_fins_on1xjj.jpg"
+      },
+      {
+        "public_id": " Images/fins/scubapro_diving_fins_kdxrph.jpg",
+        "url": " https://res.cloudinary.com/diving-shop/image/upload/v1653734597/Images/fins/scubapro_diving_fins_kdxrph.jpg"
+      }
+    ],
+    "category": "Accessories",
+    "seller": "Ebay",
+    "stock": 10,
+    "numReviews": 2,
+    "reviews": []
+  },
+  {
+    "name": "Dive Computer Olies",
+    "price": 399.99,
+    "description": "A great way to dive into the ocean",
+    "rating": 4.5,
+    "images": [
+      {
+        "public_id": "Images/diveCompiuter/olies_dive_compiuter_nmaesr.jpg",
+        "url": " https://res.cloudinary.com/diving-shop/image/upload/v1653734591/Images/diveCompiuter/olies_dive_compiuter_nmaesr.jpg"
+      },
+      {
+        "public_id": " Images/diveCompiuter/oqanic_dive_compiuter_gwxsm1.jpg",
+        "url": " https://res.cloudinary.com/diving-shop/image/upload/v1653734591/Images/diveCompiuter/oqanic_dive_compiuter_gwxsm1.jpg"
+      },
+      {
+        "public_id": " Images/diveCompiuter/shearwater_dive_compiuter_idy15o.jpg",
+        "url": "https://res.cloudinary.com/diving-shop/image/upload/v1653734591/Images/diveCompiuter/shearwater_dive_compiuter_idy15o.jpg"
+      }
+    ],
+    "category": "Accessories",
+    "seller": "Ebay",
+    "stock": 10,
+    "numReviews": 9,
+    "reviews": []
+  },
+  {
+    "name": "Dive Compasses",
+    "price": 99.99,
+    "description": "A great way to dive into the ocean",
+    "rating": 4.5,
+    "images": [
+      {
+        "public_id": " Images/dive_compasses_zypomf.jpg",
+        "url": " https://res.cloudinary.com/diving-shop/image/upload/v1653734573/Images/dive_compasses_zypomf.jpg"
+      }
+    ],
+    "category": "Accessories",
+    "seller": "Ebay",
+    "stock": 10,
+    "numReviews": 9,
+    "reviews": []
+  },
+
+  {
+    "name": "Diving Jacket Gressi",
+    "price": 549.99,
+    "description": "A great way to dive into the ocean",
+    "rating": 4.5,
+    "images": [
+      {
+        "public_id": "Images/divingBCD/gressi_diving_BCD_if7ona.jpg",
+        "url": "https://res.cloudinary.com/diving-shop/image/upload/v1653734556/Images/divingBCD/gressi_diving_BCD_if7ona.jpg"
+      },
+      {
+        "public_id": "Images/divingBCD/mares_diving_BCD_f0mwy3.jpg",
+        "url": " https://res.cloudinary.com/diving-shop/image/upload/v1653734557/Images/divingBCD/mares_diving_BCD_f0mwy3.jpg"
+      },
+      {
+        "public_id": "Images/divingBCD/scubapro_diving_BCD_lnsqws.jpg",
+        "url": " https://res.cloudinary.com/diving-shop/image/upload/v1653734556/Images/divingBCD/scubapro_diving_BCD_lnsqws.jpg"
+      },
+      {
+        "public_id": "Images/divingBCD/sherwood_diving_BCD_j1wenm.jpg",
+        "url": "https://res.cloudinary.com/diving-shop/image/upload/v1653734557/Images/divingBCD/sherwood_diving_BCD_j1wenm.jpg"
+      }
+    ],
+    "category": "Diving_BCD",
+    "seller": "Ebay",
+    "stock": 28,
+    "numReviews": 45,
+    "reviews": []
+  },
+  {
+    "name": "Diving suits Mares",
+    "price": 249.99,
+    "description": "A great way to dive into the ocean",
+    "rating": 4.5,
+    "images": [
+      {
+        "public_id": "Images/suits/mares_diving_suit_sokbd4.jpg",
+        "url": " https://res.cloudinary.com/diving-shop/image/upload/v1653734603/Images/suits/mares_diving_suit_sokbd4.jpg"
+      },
+      {
+        "public_id": "Images/suits/scubapro_diving_suit_g2alzd.jpg",
+        "url": " https://res.cloudinary.com/diving-shop/image/upload/v1653734603/Images/suits/scubapro_diving_suit_g2alzd.jpg"
+      },
+      {
+        "public_id": "Images/suits/gressi_diving_suit_iobv7x.jpg",
+        "url": "https://res.cloudinary.com/diving-shop/image/upload/v1653734603/Images/suits/gressi_diving_suit_iobv7x.jpg"
+      },
+      {
+        "public_id": "Images/suits/lycra_diving_suit_yckoqp.jpg",
+        "url": " https://res.cloudinary.com/diving-shop/image/upload/v1653734603/Images/suits/lycra_diving_suit_yckoqp.jpg"
+      }
+    ],
+    "category": "Suits",
+    "seller": "Ebay",
+    "stock": 19,
+    "numReviews": 25,
+    "reviews": []
+  },
+  {
+    "name": "Scuba Regulators Tusa",
+    "price": 349.99,
+    "description": "A great way to dive into the ocean",
+    "rating": 4.5,
+    "images": [
+      {
+        "public_id": "Images/regulators/tusa_diving_regulators_cwleph.jpg",
+        "url": " https://res.cloudinary.com/diving-shop/image/upload/v1653734600/Images/regulators/tusa_diving_regulators_cwleph.jpg"
+      },
+      {
+        "public_id": "Images/regulators/scubapro_diving_regulators_mjnvwb.jpg",
+        "url": "https://res.cloudinary.com/diving-shop/image/upload/v1653734600/Images/regulators/scubapro_diving_regulators_mjnvwb.jpg"
+      },
+      {
+        "public_id": "Images/regulators/sherwood_diving_regulators_rww4ym.jpg",
+        "url": " https://res.cloudinary.com/diving-shop/image/upload/v1653734600/Images/regulators/sherwood_diving_regulators_rww4ym.jpg"
+      },
+      {
+        "public_id": "Images/regulators/mares_diving_regulators_mscx7i.jpg",
+        "url": "https://res.cloudinary.com/diving-shop/image/upload/v1653734600/Images/regulators/mares_diving_regulators_mscx7i.jpg"
+      }
+    ],
+    "category": "Regulators",
+    "seller": "Ebay",
+    "stock": 30,
+    "numReviews": 52,
+    "reviews": []
+  },
+  {
+    "name": "Diving Tank",
+    "price": 499.99,
+    "description": "A great way to dive into the ocean",
+    "rating": 4.5,
+    "images": [
+      {
+        "public_id": "Images/diving_tank_pndkly.jpg ",
+        "url": "https://res.cloudinary.com/diving-shop/image/upload/v1653734196/Images/diving_tank_pndkly.jpg"
+      }
+    ],
+    "category": "Diving Tank",
+    "seller": "Ebay",
+    "stock": 16,
+    "numReviews": 46,
+    "reviews": []
+  },
+
+  {
+    "name": "Diving Mask Mares",
+    "price": 79.99,
+    "description": "A great way to dive into the ocean",
+    "rating": 4.5,
+    "images": [
+      {
+        "public_id": " Images/divingMask/mares_diving_mask_qi7p53.jpg",
+        "url": "https://res.cloudinary.com/diving-shop/image/upload/v1653734582/Images/divingMask/mares_diving_mask_qi7p53.jpg"
+      },
+      {
+        "public_id": " Images/divingMask/scubapro_diving_mask_vi2cl9.jpg",
+        "url": "  https://res.cloudinary.com/diving-shop/image/upload/v1653734582/Images/divingMask/scubapro_diving_mask_vi2cl9.jpg"
+      },
+      {
+        "public_id": "  Images/divingMask/fullface_diving_mask_zi4tf3.jpg",
+        "url": "  https://res.cloudinary.com/diving-shop/image/upload/v1653734582/Images/divingMask/fullface_diving_mask_zi4tf3.jpg"
+      },
+      {
+        "public_id": " Images/divingMask/gressi_diving_mask_fy5j76.jpg",
+        "url": "https://res.cloudinary.com/diving-shop/image/upload/v1653734582/Images/divingMask/gressi_diving_mask_fy5j76.jpg"
+      }
+    ],
+    "category": "Masks",
+    "seller": "Ebay",
+    "stock": 19,
+    "numReviews": 59,
+    "reviews": []
+  },
+  {
+    "name": "Fins Scubapro",
+    "price": 59.99,
+    "description": "A great way to dive into the ocean",
+    "rating": 4.5,
+    "images": [
+      {
+        "public_id": " Images/fins/scubapro_diving_fins_kdxrph.jpg",
+        "url": " https://res.cloudinary.com/diving-shop/image/upload/v1653734597/Images/fins/scubapro_diving_fins_kdxrph.jpg"
+      },
+      {
+        "public_id": " Images/fins/aqualung_diving_fins_orqqza.jpg",
+        "url": " https://res.cloudinary.com/diving-shop/image/upload/v1653734597/Images/fins/aqualung_diving_fins_orqqza.jpg"
+      },
+      {
+        "public_id": "Images/fins/gressi_diving_fins_on1xjj.jpg",
+        "url": "  https://res.cloudinary.com/diving-shop/image/upload/v1653734597/Images/fins/gressi_diving_fins_on1xjj.jpg"
+      }
+    ],
+    "category": "Accessories",
+    "seller": "Ebay",
+    "stock": 14,
+    "numReviews": 72,
+    "reviews": []
+  },
+  {
+    "name": "Dive Computer Shearwater",
+    "price": 499.99,
+    "description": "A great way to dive into the ocean",
+    "rating": 4.5,
+    "images": [
+      {
+        "public_id": " Images/diveCompiuter/shearwater_dive_compiuter_idy15o.jpg",
+        "url": "https://res.cloudinary.com/diving-shop/image/upload/v1653734591/Images/diveCompiuter/shearwater_dive_compiuter_idy15o.jpg"
+      },
+      {
+        "public_id": "Images/diveCompiuter/olies_dive_compiuter_nmaesr.jpg",
+        "url": " https://res.cloudinary.com/diving-shop/image/upload/v1653734591/Images/diveCompiuter/olies_dive_compiuter_nmaesr.jpg"
+      },
+      {
+        "public_id": " Images/diveCompiuter/oqanic_dive_compiuter_gwxsm1.jpg",
+        "url": " https://res.cloudinary.com/diving-shop/image/upload/v1653734591/Images/diveCompiuter/oqanic_dive_compiuter_gwxsm1.jpg"
+      }
+    ],
+    "category": "Accessories",
+    "seller": "Ebay",
+    "stock": 19,
+    "numReviews": 29,
+    "reviews": []
+  },
+  {
+    "name": "Dive Compasses",
+    "price": 99.99,
+    "description": "A great way to dive into the ocean",
+    "rating": 4.5,
+    "images": [
+      {
+        "public_id": " Images/dive_compasses_zypomf.jpg",
+        "url": " https://res.cloudinary.com/diving-shop/image/upload/v1653734573/Images/dive_compasses_zypomf.jpg"
+      }
+    ],
+    "category": "Accessories",
+    "seller": "Ebay",
+    "stock": 10,
+    "numReviews": 9,
+    "reviews": []
+  },
+
+  {
+    "name": "Diving Jacket Sherwood",
+    "price": 399.99,
+    "description": "A great way to dive into the ocean",
+    "rating": 4.5,
+    "images": [
+      {
+        "public_id": "Images/divingBCD/sherwood_diving_BCD_j1wenm.jpg",
+        "url": "https://res.cloudinary.com/diving-shop/image/upload/v1653734557/Images/divingBCD/sherwood_diving_BCD_j1wenm.jpg"
+      },
+      {
+        "public_id": "Images/divingBCD/gressi_diving_BCD_if7ona.jpg",
+        "url": "https://res.cloudinary.com/diving-shop/image/upload/v1653734556/Images/divingBCD/gressi_diving_BCD_if7ona.jpg"
+      },
+      {
+        "public_id": "Images/divingBCD/mares_diving_BCD_f0mwy3.jpg",
+        "url": " https://res.cloudinary.com/diving-shop/image/upload/v1653734557/Images/divingBCD/mares_diving_BCD_f0mwy3.jpg"
+      },
+      {
+        "public_id": "Images/divingBCD/scubapro_diving_BCD_lnsqws.jpg",
+        "url": " https://res.cloudinary.com/diving-shop/image/upload/v1653734556/Images/divingBCD/scubapro_diving_BCD_lnsqws.jpg"
+      }
+    ],
+    "category": "Diving_BCD",
+    "seller": "Ebay",
+    "stock": 10,
+    "numReviews": 62,
+    "reviews": []
+  },
+  {
+    "name": "Diving suits Lycra",
+    "price": 249.99,
+    "description": "A great way to dive into the ocean",
+    "rating": 4.5,
+    "images": [
+      {
+        "public_id": "Images/suits/lycra_diving_suit_yckoqp.jpg",
+        "url": " https://res.cloudinary.com/diving-shop/image/upload/v1653734603/Images/suits/lycra_diving_suit_yckoqp.jpg"
+      },
+      {
+        "public_id": "Images/suits/mares_diving_suit_sokbd4.jpg",
+        "url": " https://res.cloudinary.com/diving-shop/image/upload/v1653734603/Images/suits/mares_diving_suit_sokbd4.jpg"
+      },
+      {
+        "public_id": "Images/suits/scubapro_diving_suit_g2alzd.jpg",
+        "url": " https://res.cloudinary.com/diving-shop/image/upload/v1653734603/Images/suits/scubapro_diving_suit_g2alzd.jpg"
+      },
+      {
+        "public_id": "Images/suits/gressi_diving_suit_iobv7x.jpg",
+        "url": "https://res.cloudinary.com/diving-shop/image/upload/v1653734603/Images/suits/gressi_diving_suit_iobv7x.jpg"
+      }
+    ],
+    "category": "Suits",
+    "seller": "Ebay",
+    "stock": 15,
+    "numReviews": 35,
+    "reviews": []
+  },
+  {
+    "name": "Scuba Regulators Mares",
+    "price": 449.99,
+    "description": "A great way to dive into the ocean",
+    "rating": 4.5,
+    "images": [
+      {
+        "public_id": "Images/regulators/mares_diving_regulators_mscx7i.jpg",
+        "url": "https://res.cloudinary.com/diving-shop/image/upload/v1653734600/Images/regulators/mares_diving_regulators_mscx7i.jpg"
+      },
+      {
+        "public_id": "Images/regulators/tusa_diving_regulators_cwleph.jpg",
+        "url": " https://res.cloudinary.com/diving-shop/image/upload/v1653734600/Images/regulators/tusa_diving_regulators_cwleph.jpg"
+      },
+      {
+        "public_id": "Images/regulators/scubapro_diving_regulators_mjnvwb.jpg",
+        "url": "https://res.cloudinary.com/diving-shop/image/upload/v1653734600/Images/regulators/scubapro_diving_regulators_mjnvwb.jpg"
+      },
+      {
+        "public_id": "Images/regulators/sherwood_diving_regulators_rww4ym.jpg",
+        "url": " https://res.cloudinary.com/diving-shop/image/upload/v1653734600/Images/regulators/sherwood_diving_regulators_rww4ym.jpg"
+      }
+    ],
+    "category": "Regulators",
+    "seller": "Ebay",
+    "stock": 20,
+    "numReviews": 42,
+    "reviews": []
+  },
+  {
+    "name": "Diving Tank",
+    "price": 299.99,
+    "description": "A great way to dive into the ocean",
+    "rating": 4.5,
+    "images": [
+      {
+        "public_id": "Images/diving_tank_pndkly.jpg ",
+        "url": "https://res.cloudinary.com/diving-shop/image/upload/v1653734196/Images/diving_tank_pndkly.jpg"
+      }
+    ],
+    "category": "Diving Tank",
+    "seller": "Ebay",
+    "stock": 10,
+    "numReviews": 6,
+    "reviews": []
+  },
+
+  {
+    "name": "Diving Mask Gressi",
+    "price": 69.99,
+    "description": "A great way to dive into the ocean",
+    "rating": 4.5,
+    "images": [
+      {
+        "public_id": " Images/divingMask/gressi_diving_mask_fy5j76.jpg",
+        "url": "https://res.cloudinary.com/diving-shop/image/upload/v1653734582/Images/divingMask/gressi_diving_mask_fy5j76.jpg"
+      },
+      {
+        "public_id": " Images/divingMask/mares_diving_mask_qi7p53.jpg",
+        "url": "https://res.cloudinary.com/diving-shop/image/upload/v1653734582/Images/divingMask/mares_diving_mask_qi7p53.jpg"
+      },
+      {
+        "public_id": " Images/divingMask/scubapro_diving_mask_vi2cl9.jpg",
+        "url": "  https://res.cloudinary.com/diving-shop/image/upload/v1653734582/Images/divingMask/scubapro_diving_mask_vi2cl9.jpg"
+      },
+      {
+        "public_id": "  Images/divingMask/fullface_diving_mask_zi4tf3.jpg",
+        "url": "  https://res.cloudinary.com/diving-shop/image/upload/v1653734582/Images/divingMask/fullface_diving_mask_zi4tf3.jpg"
+      }
+    ],
+    "category": "Masks",
+    "seller": "Ebay",
+    "stock": 9,
+    "numReviews": 52,
+    "reviews": []
+  },
+  {
+    "name": "Fins Gressi",
+    "price": 59.99,
+    "description": "A great way to dive into the ocean",
+    "rating": 4.5,
+    "images": [
+      {
+        "public_id": "Images/fins/gressi_diving_fins_on1xjj.jpg",
+        "url": "  https://res.cloudinary.com/diving-shop/image/upload/v1653734597/Images/fins/gressi_diving_fins_on1xjj.jpg"
+      },
+      {
+        "public_id": " Images/fins/scubapro_diving_fins_kdxrph.jpg",
+        "url": " https://res.cloudinary.com/diving-shop/image/upload/v1653734597/Images/fins/scubapro_diving_fins_kdxrph.jpg"
+      },
+      {
+        "public_id": " Images/fins/aqualung_diving_fins_orqqza.jpg",
+        "url": " https://res.cloudinary.com/diving-shop/image/upload/v1653734597/Images/fins/aqualung_diving_fins_orqqza.jpg"
+      }
+    ],
+    "category": "Accessories",
+    "seller": "Ebay",
+    "stock": 23,
+    "numReviews": 32,
+    "reviews": []
+  },
+  {
+    "name": "Dive Computer Oqanic",
+    "price": 499.99,
+    "description": "A great way to dive into the ocean",
+    "rating": 4.5,
+    "images": [
+      {
+        "public_id": " Images/diveCompiuter/oqanic_dive_compiuter_gwxsm1.jpg",
+        "url": " https://res.cloudinary.com/diving-shop/image/upload/v1653734591/Images/diveCompiuter/oqanic_dive_compiuter_gwxsm1.jpg"
+      },
+      {
+        "public_id": " Images/diveCompiuter/shearwater_dive_compiuter_idy15o.jpg",
+        "url": "https://res.cloudinary.com/diving-shop/image/upload/v1653734591/Images/diveCompiuter/shearwater_dive_compiuter_idy15o.jpg"
+      },
+      {
+        "public_id": "Images/diveCompiuter/olies_dive_compiuter_nmaesr.jpg",
+        "url": " https://res.cloudinary.com/diving-shop/image/upload/v1653734591/Images/diveCompiuter/olies_dive_compiuter_nmaesr.jpg"
+      }
+    ],
+    "category": "Accessories",
+    "seller": "Ebay",
+    "stock": 19,
+    "numReviews": 29,
+    "reviews": []
+  },
+  {
+    "name": "Dive Compasses",
+    "price": 99.99,
+    "description": "A great way to dive into the ocean",
+    "rating": 4.5,
+    "images": [
+      {
+        "public_id": " Images/dive_compasses_zypomf.jpg",
+        "url": " https://res.cloudinary.com/diving-shop/image/upload/v1653734573/Images/dive_compasses_zypomf.jpg"
+      }
+    ],
+    "category": "Accessories",
+    "seller": "Ebay",
+    "stock": 10,
+    "numReviews": 9,
+    "reviews": []
+  },
+  {
+    "name": "Diving Jacket Mares",
+    "price": 549.99,
+    "description": "A great way to dive into the ocean",
+    "rating": 4.5,
+    "images": [
+      {
+        "public_id": "Images/divingBCD/mares_diving_BCD_f0mwy3.jpg",
+        "url": " https://res.cloudinary.com/diving-shop/image/upload/v1653734557/Images/divingBCD/mares_diving_BCD_f0mwy3.jpg"
+      },
+      {
+        "public_id": "Images/divingBCD/scubapro_diving_BCD_lnsqws.jpg",
+        "url": " https://res.cloudinary.com/diving-shop/image/upload/v1653734556/Images/divingBCD/scubapro_diving_BCD_lnsqws.jpg"
+      },
+      {
+        "public_id": "Images/divingBCD/sherwood_diving_BCD_j1wenm.jpg",
+        "url": "https://res.cloudinary.com/diving-shop/image/upload/v1653734557/Images/divingBCD/sherwood_diving_BCD_j1wenm.jpg"
+      },
+      {
+        "public_id": "Images/divingBCD/gressi_diving_BCD_if7ona.jpg",
+        "url": "https://res.cloudinary.com/diving-shop/image/upload/v1653734556/Images/divingBCD/gressi_diving_BCD_if7ona.jpg"
+      }
+    ],
+    "category": "Diving_BCD",
+    "seller": "Ebay",
+    "stock": 8,
+    "numReviews": 38,
+    "reviews": []
+  },
+  {
+    "name": "Diving suits Scubapro",
+    "price": 349.99,
+    "description": "A great way to dive into the ocean",
+    "rating": 4.5,
+    "images": [
+      {
+        "public_id": "Images/suits/scubapro_diving_suit_g2alzd.jpg",
+        "url": " https://res.cloudinary.com/diving-shop/image/upload/v1653734603/Images/suits/scubapro_diving_suit_g2alzd.jpg"
+      },
+      {
+        "public_id": "Images/suits/gressi_diving_suit_iobv7x.jpg",
+        "url": "https://res.cloudinary.com/diving-shop/image/upload/v1653734603/Images/suits/gressi_diving_suit_iobv7x.jpg"
+      },
+      {
+        "public_id": "Images/suits/mares_diving_suit_sokbd4.jpg",
+        "url": " https://res.cloudinary.com/diving-shop/image/upload/v1653734603/Images/suits/mares_diving_suit_sokbd4.jpg"
+      },
+      {
+        "public_id": "Images/suits/lycra_diving_suit_yckoqp.jpg",
+        "url": " https://res.cloudinary.com/diving-shop/image/upload/v1653734603/Images/suits/lycra_diving_suit_yckoqp.jpg"
+      }
+    ],
+    "category": "Suits",
+    "seller": "Ebay",
+    "stock": 39,
+    "numReviews": 45,
+    "reviews": []
+  },
+  {
+    "name": "Scuba Regulators scubapro",
+    "price": 449.99,
+    "description": "A great way to dive into the ocean",
+    "rating": 4.5,
+    "images": [
+      {
+        "public_id": "Images/regulators/scubapro_diving_regulators_mjnvwb.jpg",
+        "url": "https://res.cloudinary.com/diving-shop/image/upload/v1653734600/Images/regulators/scubapro_diving_regulators_mjnvwb.jpg"
+      },
+      {
+        "public_id": "Images/regulators/sherwood_diving_regulators_rww4ym.jpg",
+        "url": " https://res.cloudinary.com/diving-shop/image/upload/v1653734600/Images/regulators/sherwood_diving_regulators_rww4ym.jpg"
+      },
+      {
+        "public_id": "Images/regulators/tusa_diving_regulators_cwleph.jpg",
+        "url": " https://res.cloudinary.com/diving-shop/image/upload/v1653734600/Images/regulators/tusa_diving_regulators_cwleph.jpg"
+      },
+      {
+        "public_id": "Images/regulators/mares_diving_regulators_mscx7i.jpg",
+        "url": "https://res.cloudinary.com/diving-shop/image/upload/v1653734600/Images/regulators/mares_diving_regulators_mscx7i.jpg"
+      }
+    ],
+    "category": "Regulators",
+    "seller": "Ebay",
+    "stock": 30,
+    "numReviews": 52,
+    "reviews": []
+  },
+  {
+    "name": "Diving Tank",
+    "price": 499.99,
+    "description": "A great way to dive into the ocean",
+    "rating": 4.5,
+    "images": [
+      {
+        "public_id": "Images/diving_tank_pndkly.jpg ",
+        "url": "https://res.cloudinary.com/diving-shop/image/upload/v1653734196/Images/diving_tank_pndkly.jpg"
+      }
+    ],
+    "category": "Diving Tank",
+    "seller": "Ebay",
+    "stock": 16,
+    "numReviews": 46,
+    "reviews": []
+  },
+
+  {
+    "name": "Diving Mask Scubapro",
+    "price": 79.99,
+    "description": "A great way to dive into the ocean",
+    "rating": 4.5,
+    "images": [
+      {
+        "public_id": " Images/divingMask/scubapro_diving_mask_vi2cl9.jpg",
+        "url": "  https://res.cloudinary.com/diving-shop/image/upload/v1653734582/Images/divingMask/scubapro_diving_mask_vi2cl9.jpg"
+      },
+      {
+        "public_id": "  Images/divingMask/fullface_diving_mask_zi4tf3.jpg",
+        "url": "  https://res.cloudinary.com/diving-shop/image/upload/v1653734582/Images/divingMask/fullface_diving_mask_zi4tf3.jpg"
+      },
+      {
+        "public_id": " Images/divingMask/mares_diving_mask_qi7p53.jpg",
+        "url": "https://res.cloudinary.com/diving-shop/image/upload/v1653734582/Images/divingMask/mares_diving_mask_qi7p53.jpg"
+      },
+      {
+        "public_id": " Images/divingMask/gressi_diving_mask_fy5j76.jpg",
+        "url": "https://res.cloudinary.com/diving-shop/image/upload/v1653734582/Images/divingMask/gressi_diving_mask_fy5j76.jpg"
+      }
+    ],
+    "category": "Masks",
+    "seller": "Ebay",
+    "stock": 19,
+    "numReviews": 59,
+    "reviews": []
+  },
+  {
+    "name": "Fins Scubapro",
+    "price": 59.99,
+    "description": "A great way to dive into the ocean",
+    "rating": 4.5,
+    "images": [
+      {
+        "public_id": " Images/fins/scubapro_diving_fins_kdxrph.jpg",
+        "url": " https://res.cloudinary.com/diving-shop/image/upload/v1653734597/Images/fins/scubapro_diving_fins_kdxrph.jpg"
+      },
+      {
+        "public_id": " Images/fins/aqualung_diving_fins_orqqza.jpg",
+        "url": " https://res.cloudinary.com/diving-shop/image/upload/v1653734597/Images/fins/aqualung_diving_fins_orqqza.jpg"
+      },
+      {
+        "public_id": "Images/fins/gressi_diving_fins_on1xjj.jpg",
+        "url": "  https://res.cloudinary.com/diving-shop/image/upload/v1653734597/Images/fins/gressi_diving_fins_on1xjj.jpg"
+      }
+    ],
+    "category": "Accessories",
+    "seller": "Ebay",
+    "stock": 14,
+    "numReviews": 72,
+    "reviews": []
+  },
+  {
+    "name": "Dive Computer Shearwater",
+    "price": 499.99,
+    "description": "A great way to dive into the ocean",
+    "rating": 4.5,
+    "images": [
+      {
+        "public_id": " Images/diveCompiuter/shearwater_dive_compiuter_idy15o.jpg",
+        "url": "https://res.cloudinary.com/diving-shop/image/upload/v1653734591/Images/diveCompiuter/shearwater_dive_compiuter_idy15o.jpg"
+      },
+      {
+        "public_id": "Images/diveCompiuter/olies_dive_compiuter_nmaesr.jpg",
+        "url": " https://res.cloudinary.com/diving-shop/image/upload/v1653734591/Images/diveCompiuter/olies_dive_compiuter_nmaesr.jpg"
+      },
+      {
+        "public_id": " Images/diveCompiuter/oqanic_dive_compiuter_gwxsm1.jpg",
+        "url": " https://res.cloudinary.com/diving-shop/image/upload/v1653734591/Images/diveCompiuter/oqanic_dive_compiuter_gwxsm1.jpg"
+      }
+    ],
+    "category": "Accessories",
+    "seller": "Ebay",
+    "stock": 19,
+    "numReviews": 29,
+    "reviews": []
+  },
+  {
+    "name": "Dive Compasses",
+    "price": 99.99,
+    "description": "A great way to dive into the ocean",
+    "rating": 4.5,
+    "images": [
+      {
+        "public_id": " Images/dive_compasses_zypomf.jpg",
+        "url": " https://res.cloudinary.com/diving-shop/image/upload/v1653734573/Images/dive_compasses_zypomf.jpg"
+      }
+    ],
+    "category": "Accessories",
+    "seller": "Ebay",
+    "stock": 10,
+    "numReviews": 9,
+    "reviews": []
+  }
+]

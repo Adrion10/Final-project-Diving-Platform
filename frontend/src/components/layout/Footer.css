@@ -1,0 +1,124 @@
+.Footer {
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  margin-bottom: 0px;
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  background: linear-gradient(
+    90deg,
+    rgb(215, 215, 212) 44%,
+    rgb(105, 129, 147) 100%,
+    rgb(92, 102, 112) 100%
+  );
+  color: rgb(6, 0, 0);
+}
+
+.Links-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 20px;
+}
+
+.Links-wrapper p {
+  font-size: 18px;
+}
+
+.Logo-part {
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Logo-part img {
+  width: 60px;
+}
+
+.Footer-icons {
+  display: flex;
+  flex-direction: row;
+}
+
+.icon:hover {
+  filter: grayscale(1.5);
+}
+
+.facebook-icon,
+.instagram-icon,
+.youtube-icon {
+  height: 40px;
+  width: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  border: solid 1px rgba(128, 128, 128, 0.171);
+  background-color: white;
+}
+
+.facebook-icon {
+  color: blue;
+}
+
+.instagram-icon {
+  color: purple;
+}
+
+.youtube-icon {
+  color: red;
+}
+
+.icon {
+  margin: 5px;
+}
+
+.Quick-links,
+.Partners-links,
+.Contact-info {
+  width: 200px;
+}
+
+.Quick-links h4,
+.Partners-links h4,
+.Contact-info h4 {
+  margin-top: 60px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  text-shadow: 1px 1px 1px var(--color-accent-tint-grey-4);
+  color: var(--color-accent-tint-grey-1);
+}
+
+.Quick-links a,
+.Partners-links a,
+.Contact-info span {
+  color: var(--color-accent-tint-grey-1);
+  font-size: 16px;
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  margin-top: 5px;
+}
+
+.Quick-links a:hover,
+.Partners-links a:hover {
+  color: var(--color-primary-tint-purple-0);
+}
+
+.Quick-links a:active,
+.Partners-links a:active {
+  color: var(--color-accent-tint-orange-1);
+  font-weight: 600;
+}
+
+.Credentials {
+  font-size: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+}
