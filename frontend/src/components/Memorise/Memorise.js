@@ -32,7 +32,7 @@ const Memorise = () => {
             container
             justifyContent="space-between"
             alignItems="stretch"
-            spacing={3}
+            spacing={2}
           >
             <Grid item xs={12} sm={4}>
               <Form currentId={currentId} setCurrentId={setCurrentId} />

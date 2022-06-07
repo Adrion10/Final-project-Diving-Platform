@@ -4,7 +4,6 @@ import { TextField, Button, Typography, Paper } from "@material-ui/core";
 import FileBase from "react-file-base64";
 import { useDispatch, useSelector } from "react-redux";
 
-// ? internal imports
 import useStyles from "./FormStyles";
 import { createPost, updatePost } from "../../../actions/postsActions";
 
