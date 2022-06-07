@@ -153,8 +153,9 @@ const Home = ({ match }) => {
         ) : (
           <>
             <MetaData title={"Buy Best Products Online"} />
-
-            <h1 id="products_heading">Diving Products</h1>
+            <Link to="/products">
+              <h1 id="products_heading">Diving Products</h1>
+            </Link>
             <div className="col-12 col-md-6 mt-2 mt-md-0">
               <Route render={({ history }) => <Search history={history} />} />
             </div>

@@ -338,6 +338,7 @@ nav {
   justify-content: center;
   align-items: center;
   margin-top: 5rem;
+  background-color: gainsboro;
 
   font-weight: 700;
 }
