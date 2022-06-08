@@ -1,4 +1,4 @@
-import React, { Fragment, useState, useEffect } from 'react'
+import React, {  useState, useEffect } from 'react'
 import { MDBDataTable } from 'mdbreact'
 
 import MetaData from '../layout/MetaData'
@@ -103,7 +103,7 @@ const ProductReviews = () => {
     }
 
     return (
-        <Fragment>
+        <>
             <MetaData title={'Product Reviews'} />
             <div className="row">
                 <div className="col-12 col-md-2">
@@ -111,7 +111,7 @@ const ProductReviews = () => {
                 </div>
 
                 <div className="col-12 col-md-10">
-                    <Fragment>
+                    <>
                         <div className="row justify-content-center mt-5">
                             <div className="col-5">
                                 <form onSubmit={submitHandler}>
@@ -151,11 +151,11 @@ const ProductReviews = () => {
                             )}
 
 
-                    </Fragment>
+                    </>
                 </div>
             </div>
 
-        </Fragment>
+        </>
     )
 }
 

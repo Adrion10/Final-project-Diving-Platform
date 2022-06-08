@@ -1,4 +1,4 @@
-import React, { Fragment, useEffect } from "react";
+import React, { useEffect } from "react";
 import { Link } from "react-router-dom";
 import { MDBDataTable } from "mdbreact";
 
@@ -76,7 +76,7 @@ const UsersList = ({ history }) => {
         role: user.role,
 
         actions: (
-          <Fragment>
+          <>
             <Link
               to={`/admin/user/${user._id}`}
               className="btn btn-primary py-1 px-2"
@@ -89,7 +89,7 @@ const UsersList = ({ history }) => {
             >
               <i className="fa fa-trash"></i>
             </button>
-          </Fragment>
+          </>
         ),
       });
     });
@@ -98,7 +98,7 @@ const UsersList = ({ history }) => {
   };
 
   return (
-    <Fragment>
+    <>
       <MetaData title={"All Users"} />
       <div className="row">
         <div className="col-12 col-md-2">
@@ -106,7 +106,7 @@ const UsersList = ({ history }) => {
         </div>
 
         <div className="col-12 col-md-10">
-          <Fragment>
+          <>
             <h1 className="my-5">All Users</h1>
 
             {loading ? (
@@ -120,10 +120,10 @@ const UsersList = ({ history }) => {
                 hover
               />
             )}
-          </Fragment>
+          </>
         </div>
       </div>
-    </Fragment>
+    </>
   );
 };
 

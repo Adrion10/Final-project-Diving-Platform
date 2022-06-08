@@ -1,4 +1,4 @@
-import React, { Fragment, useEffect } from 'react'
+import React, {  useEffect } from 'react'
 import { Link } from 'react-router-dom'
 import { MDBDataTable } from 'mdbreact'
 
@@ -78,14 +78,14 @@ const OrdersList = ({ history }) => {
                 status: order.orderStatus && String(order.orderStatus).includes('Delivered')
                     ? <p style={{ color: 'green' }}>{order.orderStatus}</p>
                     : <p style={{ color: 'red' }}>{order.orderStatus}</p>,
-                actions: <Fragment>
+                actions: <>
                     <Link to={`/admin/order/${order._id}`} className="btn btn-primary py-1 px-2">
                         <i className="fa fa-eye"></i>
                     </Link>
                     <button className="btn btn-danger py-1 px-2 ml-2" onClick={() => deleteOrderHandler(order._id)}>
                         <i className="fa fa-trash"></i>
                     </button>
-                </Fragment>
+                </>
             })
         })
 
@@ -94,7 +94,7 @@ const OrdersList = ({ history }) => {
 
 
     return (
-        <Fragment>
+        <>
             <MetaData title={'All Orders'} />
             <div className="row">
                 <div className="col-12 col-md-2">
@@ -102,7 +102,7 @@ const OrdersList = ({ history }) => {
                 </div>
 
                 <div className="col-12 col-md-10">
-                    <Fragment>
+                    <>
                         <h1 className="my-5">All Orders</h1>
 
                         {loading ? <Loader /> : (
@@ -115,11 +115,11 @@ const OrdersList = ({ history }) => {
                             />
                         )}
 
-                    </Fragment>
+                    </>
                 </div>
             </div>
 
-        </Fragment>
+        </>
     )
 }
 

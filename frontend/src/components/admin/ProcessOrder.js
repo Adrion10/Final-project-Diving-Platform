@@ -1,4 +1,4 @@
-import React, { Fragment, useState, useEffect } from 'react'
+import React, { useState, useEffect } from 'react'
 import { Link } from 'react-router-dom'
 
 import MetaData from '../layout/MetaData'
@@ -53,7 +53,7 @@ const ProcessOrder = ({ match }) => {
     const isPaid = paymentInfo && paymentInfo.status === 'succeeded' ? true : false
 
     return (
-        <Fragment>
+        <>
             <MetaData title={`Process Order # ${order && order._id}`} />
             <div className="row">
                 <div className="col-12 col-md-2">
@@ -61,7 +61,7 @@ const ProcessOrder = ({ match }) => {
                 </div>
 
                 <div className="col-12 col-md-10">
-                    <Fragment>
+                    <>
                         {loading ? <Loader /> : (
                             <div className="row d-flex justify-content-around">
                                 <div className="col-12 col-lg-7 order-details">
@@ -138,11 +138,11 @@ const ProcessOrder = ({ match }) => {
 
                             </div>
                         )}
-                    </Fragment>
+                    </>
                 </div>
             </div>
 
-        </Fragment>
+        </>
     )
 }
 

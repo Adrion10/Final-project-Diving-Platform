@@ -1,4 +1,4 @@
-import React, { Fragment, useState, useEffect } from "react";
+import React, { useState, useEffect } from "react";
 
 import MetaData from "../layout/MetaData";
 import Sidebar from "./Sidebar";
@@ -84,7 +84,7 @@ const NewProduct = ({ history }) => {
   };
 
   return (
-    <Fragment>
+    <>
       <MetaData title={"New Product"} />
       <div className="row">
         <div className="col-12 col-md-2">
@@ -92,7 +92,7 @@ const NewProduct = ({ history }) => {
         </div>
 
         <div className="col-12 col-md-10">
-          <Fragment>
+          <>
             <div className="wrapper my-5">
               <form
                 className="shadow-lg"
@@ -210,10 +210,10 @@ const NewProduct = ({ history }) => {
                 </button>
               </form>
             </div>
-          </Fragment>
+          </>
         </div>
       </div>
-    </Fragment>
+    </>
   );
 };
 

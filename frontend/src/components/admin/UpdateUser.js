@@ -1,4 +1,4 @@
-import React, { Fragment, useState, useEffect } from 'react'
+import React, {  useState, useEffect } from 'react'
 
 import MetaData from '../layout/MetaData'
 import Sidebar from './Sidebar'
@@ -63,7 +63,7 @@ const UpdateUser = ({ history, match }) => {
 
 
     return (
-        <Fragment>
+        <>
             <MetaData title={`Update User`} />
             <div className="row">
                 <div className="col-12 col-md-2">
@@ -122,7 +122,7 @@ const UpdateUser = ({ history, match }) => {
                 </div>
             </div>
 
-        </Fragment>
+        </>
     )
 }
 

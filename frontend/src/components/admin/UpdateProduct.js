@@ -22,19 +22,13 @@ const UpdateProduct = ({ match, history }) => {
     const [imagesPreview, setImagesPreview] = useState([])
 
     const categories = [
-        'Electronics',
-        'Cameras',
-        'Laptops',
-        'Accessories',
-        'Headphones',
-        'Food',
-        "Books",
-        'Clothes/Shoes',
-        'Beauty/Health',
-        'Sports',
-        'Outdoor',
-        'Home'
-    ]
+      "Diving_BCD",
+      "Suits",
+      "Regulators",
+      "Diving Tank",
+      "Masks",
+      "Accessories",
+    ];
 
     const alert = useAlert();
     const dispatch = useDispatch();
