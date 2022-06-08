@@ -49,11 +49,11 @@ const Cart = ({ history }) => {
 
           <div className="row d-flex justify-content-between">
             <div className="col-12 col-lg-8">
-              {cartItems.map((item) => (
-                <>
+              {cartItems.map((item, index) => (
+                <div key={index}>
                   <hr />
 
-                  <div className="cart-item" key={item.product.item}>
+                  <div className="cart-item">
                     <div className="row">
                       <div className="col-4 col-lg-3">
                         <img src={item.image} alt="" height="100" width="125" />
@@ -112,7 +112,7 @@ const Cart = ({ history }) => {
                     </div>
                   </div>
                   <hr />
-                </>
+                </div>
               ))}
             </div>
 

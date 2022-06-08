@@ -1,4 +1,4 @@
-import React, { Fragment } from "react";
+import React from "react";
 import { Link } from "react-router-dom";
 
 import MetaData from "../layout/MetaData";
@@ -31,7 +31,7 @@ const ConfirmOrder = ({ history }) => {
   };
 
   return (
-    <Fragment>
+    <>
       <MetaData title={"Confirm Order"} />
 
       <CheckoutSteps shipping confirmOrder />
@@ -53,10 +53,10 @@ const ConfirmOrder = ({ history }) => {
           <hr />
           <h4 className="mt-4">Your Cart Items:</h4>
 
-          {cartItems.map((item) => (
-            <Fragment>
+          {cartItems.map((item, index) => (
+            <div key={index}>
               <hr />
-              <div className="cart-item my-1" key={item.product.item}>
+              <div className="cart-item my-1">
                 <div className="row">
                   <div className="col-4 col-lg-2">
                     <img src={item.image} alt="" height="45" width="65" />
@@ -75,7 +75,7 @@ const ConfirmOrder = ({ history }) => {
                 </div>
               </div>
               <hr />
-            </Fragment>
+            </div>
           ))}
         </div>
 
@@ -112,7 +112,7 @@ const ConfirmOrder = ({ history }) => {
           </div>
         </div>
       </div>
-    </Fragment>
+    </>
   );
 };
 
