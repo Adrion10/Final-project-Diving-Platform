@@ -6,6 +6,7 @@
   display: flex;
   flex-direction: column;
   width: 100vw;
+  z-index: 10;
   background: linear-gradient(
     90deg,
     rgb(215, 215, 212) 44%,

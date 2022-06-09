@@ -194,14 +194,14 @@ const Navbar = () => {
           </Link>
         </li>
         <li className="menu_list">
-          <span className="front fas fa-info"></span>
-          <Link to="/producte" className="side">
+          <span className="front fas fa-store"></span>
+          <Link to="/products" className="side">
             Shop
           </Link>
         </li>
         <li className="menu_list">
-          <span className="front fas fa-briefcase"></span>
-          <Link to="/memorise" className="side">
+          <span className="front fas fa-image"></span>
+          <Link to="/posts" className="side">
             Memorise
           </Link>
         </li>
