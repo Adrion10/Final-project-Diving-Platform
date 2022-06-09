@@ -160,21 +160,24 @@ a.enter-shop.link-enter {
   transform: scale3d(0, 1, 1);
   transition: transform 0.3s;
 }
-*/ .link-enter:hover::before {
+.link-enter:hover::before {
   transform-origin: 0% 50%;
   transform: scale3d(1, 1, 1);
 }
-*/
+
 /* title reveal */
-.infoDive-h1,
+.diving-h1,
 .line {
   animation-duration: 4s;
 }
 
-.infoDive-h1,
+.diving-h1,
 .line {
   display: inline-block;
   animation-name: text;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-delay: 0.5s;
 }
 
 @keyframes text {
@@ -188,15 +191,15 @@ a.enter-shop.link-enter {
 
 /* end title reveal */
 
-.infoDive-h1 {
+.diving-h1 {
   font-size: 4vw;
 }
-.ifoDive-h4 {
+.diviing-h4 {
   font-size: 1.6vw;
 }
 
-.infoDive-h1,
-.infoDive-h4 {
+.diving-h1,
+.diving-h4 {
   text-shadow: 0 2px 8px rgba(54, 9, 9, 0.4);
   font-weight: 500;
   font-style: normal;

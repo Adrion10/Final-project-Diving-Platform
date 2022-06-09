@@ -17,6 +17,22 @@
   height: 100px;
   margin-left: 50px;
 }
+img {
+  animation-name: logo;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-delay: 0.5s;
+}
+
+@keyframes logo {
+  from {
+    clip-path: inset(0 100% 0 0);
+  }
+  to {
+    clip-path: inset(0 0 0 0);
+  }
+}
+
 #login_btn,
 #view_btn {
   background-color: #b5a104;

@@ -77,15 +77,15 @@ const Home = ({ match }) => {
             <img className="Carousel-Image" src={hero} alt="First slide" />
             <Carousel.Caption>
               <div className="diving-text">
-                <h1 className="infoDive-h1">
+                <h1 className="diving-h1">
                   Welcome to <span className="Title">NAUTILIUS_SHOP</span>
                 </h1>
-                <h4 className="infoDive-h4 ">
+                <h4 className="diving-h4 ">
                   Find the best diving shop and share your memories in Web!
                 </h4>
                 <div className="line"></div>
 
-                <Link to="/product" className="enter-shop">
+                <Link to="/products" className="enter-shop">
                   ENTER THE SHOP
                 </Link>
               </div>
@@ -95,15 +95,15 @@ const Home = ({ match }) => {
             <img className="Carousel-Image" src={hero1} alt="Second slide" />
             <Carousel.Caption>
               <div className="diving-text">
-                <h1 className="infoDive-h1">
+                <h1 className="diving-h1">
                   Welcome to <span className="Title">NAUTILIUS_SHOP</span>
                 </h1>
-                <h4 className="infoDive-h4 ">
+                <h4 className="diving-h4 ">
                   Find the best diving shop and share your memories in Web!
                 </h4>
                 <div className="line"></div>
 
-                <Link to="/product" className="enter-shop">
+                <Link to="/products" className="enter-shop">
                   ENTER THE SHOP
                 </Link>
               </div>
@@ -113,15 +113,15 @@ const Home = ({ match }) => {
             <img className="Carousel-Image" src={hero2} alt="Third slide" />
             <Carousel.Caption>
               <div className="diving-text">
-                <h1 className="infoDive-h1">
+                <h1 className="diving-h1">
                   Welcome to <span className="Title">NAUTILIUS_SHOP</span>
                 </h1>
-                <h4 className="infoDive-h4 ">
+                <h4 className="diving-h4 ">
                   Find the best diving shop and share your memories in Web!
                 </h4>
                 <div className="line"></div>
 
-                <Link to="/product" className="enter-shop">
+                <Link to="/products" className="enter-shop">
                   ENTER THE SHOP
                 </Link>
               </div>
@@ -131,10 +131,10 @@ const Home = ({ match }) => {
             <img className="Carousel-Image" src={hero3} alt="Third slide" />
             <Carousel.Caption>
               <div className="diving-text">
-                <h1 className="infoDive-h1">
+                <h1 className="diving-h1">
                   Welcome to <span className="Title">NAUTILIUS_SHOP</span>
                 </h1>
-                <h4 className="infoDive-h4 ">
+                <h4 className="diving-h4 ">
                   Find the best diving shop and share your memories in Web!
                 </h4>
                 <div className="line"></div>
@@ -167,13 +167,13 @@ const Home = ({ match }) => {
                       <div className="px-5">
                         <Range
                           marks={{
-                            1: `$1`,
-                            1000: `$1000`,
+                            1: `€1`,
+                            1000: `€1000`,
                           }}
                           min={1}
                           max={1000}
                           defaultValue={[1, 1000]}
-                          tipFormatter={(value) => `$${value}`}
+                          tipFormatter={(value) => `€${value}`}
                           tipProps={{
                             placement: "top",
                             visible: true,
