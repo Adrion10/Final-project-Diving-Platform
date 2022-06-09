@@ -162,10 +162,6 @@ input[type="password"]:focus {
   top: -10%;
   right: 48%;
   transform: translateY(-50%);
-  /* background-image: url("../../images/hero.jpg");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat; */
 
   background: linear-gradient(
     90deg,
@@ -281,7 +277,7 @@ input[type="password"]:focus {
     min-height: 800px;
     height: 80vh;
     padding: 0;
-    z-index: -5;
+    z-index: 5;
   }
   .signin-signup {
     width: 100%;

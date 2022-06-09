@@ -34,7 +34,9 @@ const Payment = ({ history }) => {
   const dispatch = useDispatch();
 
   const { user } = useSelector((state) => state.auth);
-  const { cartItems, shippingInfo } = useSelector((state) => state.cart);
+  const { cartItems, emptyCart, shippingInfo } = useSelector(
+    (state) => state.cart
+  );
   const { error } = useSelector((state) => state.newOrder);
 
   useEffect(() => {
@@ -42,7 +44,7 @@ const Payment = ({ history }) => {
       alert.error(error);
       dispatch(clearErrors());
     }
-  }, [dispatch, alert, error]);
+  }, [dispatch, emptyCart, alert, error]);
 
   const order = {
     orderItems: cartItems,
@@ -103,6 +105,7 @@ const Payment = ({ history }) => {
           order.paymentInfo = {
             id: result.paymentIntent.id,
             status: result.paymentIntent.status,
+            cartItems: emptyCart,
           };
 
           dispatch(createOrder(order));

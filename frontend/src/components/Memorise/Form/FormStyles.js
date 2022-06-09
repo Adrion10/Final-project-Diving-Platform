@@ -4,15 +4,18 @@ export default makeStyles((theme) => ({
   root: {
     "& .MuiTextField-root": {
       margin: theme.spacing(1),
+      backgroundColor: "#f5f5f5",
     },
   },
   paper: {
     padding: theme.spacing(2),
+    backgroundColor: "#f5f5f5",
   },
   form: {
     display: "flex",
     flexWrap: "wrap",
     justifyContent: "center",
+    alignItems: "center",
   },
   fileInput: {
     width: "97%",
@@ -20,5 +23,6 @@ export default makeStyles((theme) => ({
   },
   buttonSubmit: {
     marginBottom: 10,
+    backgroundColor: "#00bcd4",
   },
 }));

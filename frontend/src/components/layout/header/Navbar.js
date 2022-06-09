@@ -133,7 +133,7 @@ const Navbar = () => {
             <div className="ml-4 dropdown d-inline">
               <Link
                 to="#!"
-                className="btn dropdown-toggle text-white mr-4"
+                className="btn dropdown-toggle text-black  mr-4"
                 type="button"
                 id="dropDownMenuButton"
                 data-toggle="dropdown"

@@ -2,6 +2,7 @@ import axios from "axios";
 import {
   ADD_TO_CART,
   REMOVE_ITEM_CART,
+  EMPTY_CART,
   SAVE_SHIPPING_INFO,
 } from "../constants/cartConstants";
 
@@ -34,7 +35,7 @@ export const removeItemFromCart = (id) => async (dispatch, getState) => {
 
 export const emptyCart = (id) => async (dispatch, getState) => {
   dispatch({
-    type: REMOVE_ITEM_CART,
+    type: EMPTY_CART,
     payload: id,
   });
 

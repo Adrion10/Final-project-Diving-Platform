@@ -35,7 +35,7 @@ app.use("/api", authRouter);
 app.use("/api", payment);
 app.use("/api", orderRouter);
 app.use("/api", contact);
-app.use("/api", postsRouter);
+app.use("/posts", postsRouter);
 
 //Middleware to handle errors
 app.use(errorMiddleware);

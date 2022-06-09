@@ -1,4 +1,4 @@
-import React, { Fragment, useState, useEffect } from "react";
+import React, {  useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 
 import Loader from "../layout/loader/Loader";
@@ -39,11 +39,11 @@ const Login = ({ history, location }) => {
   };
 
   return (
-    <Fragment>
+    <>
       {loading ? (
         <Loader />
       ) : (
-        <Fragment>
+        <>
           <MetaData title={"Login"} />
 
           {/* <div className="Title-Container">
@@ -108,9 +108,9 @@ const Login = ({ history, location }) => {
               </div>
             </div>
           </div>
-        </Fragment>
+        </>
       )}
-    </Fragment>
+    </>
   );
 };
 

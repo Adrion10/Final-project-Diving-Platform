@@ -1,4 +1,4 @@
-import React, { Fragment, useState, useEffect } from "react";
+import React, { useState, useEffect } from "react";
 
 import MetaData from "../layout/MetaData";
 
@@ -73,7 +73,7 @@ const UpdateProfile = ({ history }) => {
     reader.readAsDataURL(e.target.files[0]);
   };
   return (
-    <Fragment>
+    <>
       <MetaData title={"Update Profile"} />
 
       <div className="row wrapper">
@@ -147,7 +147,7 @@ const UpdateProfile = ({ history }) => {
           </form>
         </div>
       </div>
-    </Fragment>
+    </>
   );
 };
 

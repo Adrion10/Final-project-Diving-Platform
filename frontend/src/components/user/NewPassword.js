@@ -1,4 +1,4 @@
-import React, { Fragment, useState, useEffect } from 'react'
+import React, {  useState, useEffect } from 'react'
 
 import MetaData from '../layout/MetaData'
 
@@ -41,7 +41,7 @@ const NewPassword = ({ history, match }) => {
     }
 
     return (
-        <Fragment>
+        <>
 
             <MetaData title={'New Password Reset'} />
 
@@ -83,7 +83,7 @@ const NewPassword = ({ history, match }) => {
                 </div>
             </div>
 
-        </Fragment>
+        </>
     )
 }
 

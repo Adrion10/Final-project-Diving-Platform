@@ -1,4 +1,4 @@
-import React, { Fragment, useState, useEffect } from "react";
+import React, { useState, useEffect } from "react";
 
 import MetaData from "../layout/MetaData";
 import Loader from "../layout/loader/Loader";
@@ -71,11 +71,11 @@ const Register = ({ history }) => {
   };
 
   return (
-    <Fragment>
+    <>
       {loading ? (
         <Loader />
       ) : (
-        <Fragment>
+        <>
           <MetaData title={"Register User"} />
 
           {/* <div className="login-form-container"> */}
@@ -197,9 +197,9 @@ const Register = ({ history }) => {
             </div>
           </div>
           {/* </div> */}
-        </Fragment>
+        </>
       )}
-    </Fragment>
+    </>
   );
 };
 
