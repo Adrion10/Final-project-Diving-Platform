@@ -17,7 +17,7 @@
   height: 100px;
   margin-left: 50px;
 }
-img {
+.logo img a {
   animation-name: logo;
   animation-iteration-count: infinite;
   animation-timing-function: linear;
@@ -25,11 +25,22 @@ img {
 }
 
 @keyframes logo {
-  from {
-    clip-path: inset(0 100% 0 0);
+  0% {
+    left: 0;
   }
-  to {
-    clip-path: inset(0 0 0 0);
+  48% {
+    transform: rotateY(0deg);
+  }
+  50% {
+    left: calc(100% - 130px);
+    transform: rotateY(180deg);
+  }
+  98% {
+    transform: rotateY(180deg);
+  }
+  100% {
+    left: 0;
+    transform: rotateY(360deg);
   }
 }
 
