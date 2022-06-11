@@ -48,12 +48,11 @@ const Navbar = () => {
     <>
       <nav className="navbar row">
         <div className="col-12 col-md-3">
-          <div className="logo">
-            <Link to="/">
-              <img src="/logo.png" alt="logo" />
-            </Link>
+          <div class="logo-wrapper">
+            <div class="logo"></div>
           </div>
         </div>
+
         <div className="list-wrapper">
           <img
             src={`${process.env.PUBLIC_URL}/menu-bars.png?raw=true`}
