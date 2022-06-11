@@ -19,9 +19,8 @@
 .Links-wrapper {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-around;
   flex-wrap: wrap;
-  margin: 20px;
 }
 
 .Links-wrapper p {
@@ -36,7 +35,7 @@
 }
 
 .Logo-part img {
-  width: 60px;
+  width: 90px;
 }
 
 .Footer-icons {
