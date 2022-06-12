@@ -5,9 +5,11 @@ export default makeStyles({
     height: 0,
 
     paddingTop: "56.25%",
-    backgroundColor: "rgba(0, 0, 0, 0.2)",
-    backgroundBlendMode: "darken",
+    backgroundColor: "rgba(0, 0, 0, 0.1)",
+    color: "white",
+    // backgroundBlendMode: "darken",
   },
+
   border: {
     border: "solid",
   },
@@ -41,6 +43,7 @@ export default makeStyles({
     display: "flex",
     justifyContent: "space-between",
     margin: "20px",
+    color: "white",
   },
   title: {
     padding: "0 16px",
@@ -49,5 +52,6 @@ export default makeStyles({
     padding: "0 16px 8px 16px",
     display: "flex",
     justifyContent: "space-between",
+    color: "white",
   },
 });
