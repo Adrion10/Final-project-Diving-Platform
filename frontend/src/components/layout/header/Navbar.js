@@ -48,8 +48,8 @@ const Navbar = () => {
     <>
       <nav className="navbar row">
         <div className="col-12 col-md-3">
-          <div class="logo-wrapper">
-            <div class="logo"></div>
+          <div className="logo-wrapper">
+            <div className="logo"></div>
           </div>
         </div>
 

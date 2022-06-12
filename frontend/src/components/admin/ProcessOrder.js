@@ -168,11 +168,9 @@ const ProcessOrder = ({ match }) => {
                   </div>
 
                   <button
-                    className="btn btn-primary btn-block"
+                    className="btn"
                     onClick={() => updateOrderHandler(order._id)}
-                  >
-                    Update Status
-                  </button>
+                  ></button>
                 </div>
               </div>
             )}
