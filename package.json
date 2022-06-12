@@ -10,17 +10,8 @@
     "seeder": "node utils/seeder.js",
     "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false && npm install --prefix frontend && npm run build --prefix frontend"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Adrion10/divingShop.git"
-  },
-  "keywords": [],
   "author": "Lace, Eddison, Deniss",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Adrion10/divingShop/issues"
-  },
-  "homepage": "https://github.com/Adrion10/divingShop#readme",
   "dependencies": {
     "bcryptjs": "^2.4.3",
     "body-parser": "^1.20.0",
