@@ -1,7 +1,7 @@
 const app = require("./app");
 const connectDatabase = require("./config/database");
 
-const dotenv = require("dotenv");
+// const dotenv = require("dotenv");
 const cloudinary = require("cloudinary");
 
 //Handle Uncaught exceptions
@@ -13,7 +13,9 @@ process.on("uncaughtException", (err) => {
 
 // seting up config
 
-dotenv.config({ path: "config/.env" });
+// dotenv.config({ path: "config/.env" });
+if (process.env.NODE_ENV !== "PRODUCTION")
+  require("dotenv").config({ path: "config/.env" });
 
 //Connectin to databases
 connectDatabase();
@@ -27,13 +29,13 @@ cloudinary.config({
 
 const server = app.listen(process.env.PORT, () => {
   console.log(
-    `Diving is running on port ${process.env.PORT} in ${process.env.NODE_ENV} mode`
+    `Diving is running on PORT ${process.env.PORT} in ${process.env.NODE_ENV} mode`
   );
 });
 // Handle Unhandled Promise Rejection
 process.on("unhandledRejection", (err) => {
   console.log(`ERROR: ${err.message}`);
-  console.log("Shutting down the server due Unhandled Promise Rejection");
+  console.log("Shutting down the server Promise Rejection");
   server.close(() => {
     process.exit(1);
   });

@@ -40,5 +40,3 @@ It's worth noting that a few tricks are used in the server implementation to con
 # By default when the express.js server receives a request, it tries to match it with one of the API routes. If none matches it serves one of the static files instead. If none of those matches it serves the React index.html file. This enables client-side routing in the React app (with React Router or similar library) without overriding the server API or hiding any of the other static assets.
 
 # divingShop
-
-Hello

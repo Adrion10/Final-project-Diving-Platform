@@ -1,5 +1,15 @@
 
-.env
-/node_modules
+#dependecies
+/node_modules/
+/frontend/node_modules/
+
+#PRODUCTION
+/frontend/build
+
+#misc
+/frontend/src/assets/
+/frontend/src/assets/images/
+/backend/config/.env
 config.env
 /package-lock.json
+.env
