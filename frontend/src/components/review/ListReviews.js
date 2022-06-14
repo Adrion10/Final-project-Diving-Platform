@@ -2,7 +2,7 @@ import React from "react";
 
 const ListReviews = ({ reviews }) => {
   return (
-    <div className="reviews w-75">
+    <div className="reviews w-75 ml-5">
       <h3> Reviews:</h3>
       <hr />
       {reviews &&
