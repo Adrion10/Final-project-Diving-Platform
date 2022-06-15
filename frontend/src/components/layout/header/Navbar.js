@@ -183,41 +183,6 @@ const Navbar = () => {
           )}
         </div>
       </nav>
-
-      {/* --+++++ 3D navbar start ++++++-- */}
-      <ul className="menu">
-        <li className="menu_list">
-          <span className="front fas fa-home"></span>
-          <Link to="/" className="side">
-            home
-          </Link>
-        </li>
-        <li className="menu_list">
-          <span className="front fas fa-store"></span>
-          <Link to="/products" className="side">
-            Shop
-          </Link>
-        </li>
-        <li className="menu_list">
-          <span className="front fas fa-image"></span>
-          <Link to="/posts" className="side">
-            Memorise
-          </Link>
-        </li>
-        <li className="menu_list">
-          <span className="front fas fa-photo-video"></span>
-          <Link to="/gallery" className="side">
-            Gallery
-          </Link>
-        </li>
-        <li className="menu_list">
-          <span className="front fas fa-paper-plane"></span>
-          <Link to="contact" className="side">
-            contact
-          </Link>
-        </li>
-      </ul>
-      {/* --+++++ 3D navbar end ++++++--> */}
     </>
   );
 };
